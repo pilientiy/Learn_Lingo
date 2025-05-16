@@ -77,4 +77,4 @@ npm run dev
 
 
 <h2>Author</h2>
-Created by Olena Yarotska.
+Created by Filip.
