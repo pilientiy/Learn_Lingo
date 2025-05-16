@@ -77,4 +77,4 @@ npm run dev
 
 
 <h2>Author</h2>
-Created by Filip.
+Created by Filip Kavaleu.
