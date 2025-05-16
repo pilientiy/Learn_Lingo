@@ -1,0 +1,73 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  background-color: #fff;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+button{
+  cursor: pointer;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+[data-theme="yellow"] {
+  --background-color: #F8F8F8;
+  --accent-color: #FBE9BA;
+  --button-accent: #F4C550;
+  --background-image: url("./images/home/home-01.png");
+}
+
+[data-theme="green"] {
+  --background-color: #F8F8F8;
+  --accent-color: #CBDED3;
+  --button-accent: #9FBAAE;
+  --background-image: url("./images/home/home-02.png");
+}
+
+[data-theme="blue"] {
+  --background-color: #F8F8F8;
+  --accent-color: #BFD6EA;
+  --button-accent: #9FB7CE;
+  --background-image: url("./images/home/home-03.png");
+}
+
+[data-theme="pink"] {
+  --background-color: #F8F8F8;
+  --accent-color: #F2C0BD;
+  --button-accent: #E0A39A;
+  --background-image: url("./images/home/home-04.png");
+}
+
+[data-theme="orange"] {
+  --background-color: #F8F8F8;
+  --accent-color: #F4C8BA;
+  --button-accent: #F0AA8D;
+  --background-image: url("./images/home/home-05.png");
+}

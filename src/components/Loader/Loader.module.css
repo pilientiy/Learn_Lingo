@@ -1,0 +1,10 @@
+.lines {
+    margin: auto;
+    display: block;
+} 
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

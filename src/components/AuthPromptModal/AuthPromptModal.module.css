@@ -1,0 +1,35 @@
+.wrapper {
+    padding: 70px 50px;
+    text-align: center;
+}
+.heading {
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: #333;
+}
+.text {
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: #666;
+}
+.buttonWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.button {
+    background-color: #FBE9BA;
+    color: black;
+    border: none;
+}
+.button:hover {
+    background-color: #F4C550;
+}
+

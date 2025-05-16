@@ -1,0 +1,37 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 64px;
+}
+.loginButton {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    position: relative;
+    background-color: transparent;
+    border: none;
+    margin-right: 16px;
+}
+.registerButton {
+    padding: 14px 39px;
+    border-radius: 12px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #121417;
+}
+.icon {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 0;
+    right: 60px;
+    color: var(--accent-color);
+}
+.icon:hover {
+    color: var(--button-accent);
+}
+
+

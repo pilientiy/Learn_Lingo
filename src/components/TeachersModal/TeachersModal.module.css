@@ -1,0 +1,146 @@
+.modalBlock {
+    box-sizing: border-box;
+    width: 600px;
+    max-width: 100%;
+    padding: 64px;
+    min-height: 400px;
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: 500;
+    color: #121417;
+    margin-bottom: 20px;
+}
+
+.about {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #121417cc;
+    margin-bottom: 20px;
+}
+
+.teacherInfo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 40px;
+}
+
+.image {
+    width: 44px;
+    height: 44px;
+    border-radius: 100px;
+}
+
+.teacherDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.text {
+    font-size: 12px;
+    font-weight: 500;
+    color: #8A8A89;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 500;
+    color: #121417;
+}
+.radioGroup {
+    margin-bottom: 32px;
+}
+
+.radioLabel {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #121417;
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.radioOption {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    color: #121417;
+    cursor: pointer;
+}
+
+.radioOption:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.radioOption input[type="radio"] {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #121417;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.radioOption input[type="radio"]:checked {
+    border-color: #f4c550;
+    background-color: #fff;
+}
+
+.radioOption input[type="radio"]:checked::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #f4c550;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.error {
+    color: #ff4d4f;
+    font-size: 14px;
+    margin-top: 8px;
+}
+.inputsBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.input{
+    padding: 16px 18px;
+    width: 435px;
+    border: 1px solid #1214171A;
+    border-radius: 12px;
+}
+.input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: #121417;
+}
+.submitButton {
+    padding: 16px 0px;
+    width: 470px;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #121417;
+    background-color: #FBE9BA;
+    margin-top: 40px;
+}
+.submitButton:hover {
+    background-color: #F4C550;
+}

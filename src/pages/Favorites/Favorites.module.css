@@ -1,0 +1,10 @@
+.favoritesPage {
+    background-color: #F8F8F8;
+    padding: 96px 128px;
+}
+.message {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}

@@ -1,0 +1,229 @@
+.teacherCard {
+    display: flex;
+    gap: 48px;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 24px;
+    margin-bottom: 32px;
+    width: 1184px;
+}
+
+.imageWrapper {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    border: 3px solid #fbe9ba;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    width: 96px;
+    height: 96px;
+    border-radius: 100px;
+}
+
+.infoWrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerWrp {
+    margin-bottom: 8px;
+}
+
+.headingAndChars {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardHeading {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #8a8a89;
+}
+
+.teacherName {
+    font-size: 24px;
+    color: #121417;
+    margin-bottom: 32px;
+}
+
+.teacherChars {
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+}
+
+.char {
+    padding: 0 16px;
+}
+
+.char:not(:last-child) {
+    border-right: 1px solid #8a8a89;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+
+.charPrice {
+    color: rgb(99, 180, 120);
+}
+
+.buttonWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.heartIcon {
+    height: 26px;
+    width: 26px;
+}
+
+.teacherInfoWrp {
+    margin-bottom: 32px;
+}
+
+.teacherInfoHead {
+    color: #8a8a89;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.teacherInfoHead:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.teacherInfo {
+    color: #121417;
+}
+
+.teacherLangInfo {
+    text-decoration: underline;
+    color: #121417;
+}
+
+.navWrp {
+    margin-bottom: 32px;
+}
+
+.langLevelWrp {
+    margin-top: 32px;
+}
+
+.langLevel {
+    padding: 8px 12px;
+    border: 1px solid #fbe9ba;
+    border-radius: 35px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.langLevel:not(:last-child) {
+    margin-right: 8px;
+}
+
+.firstLevel {
+    padding: 8px 12px;
+    border: 1px solid transparent;
+    border-radius: 35px;
+    background-color: #f4c550;
+    margin-right: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.link {
+    color: #121417;
+    text-decoration: underline;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    border: none;
+    background-color: transparent;
+}
+
+.link:hover {
+    font-weight: 700;
+    font-size: 18px;
+}
+.fullInfoBlock {
+    margin-bottom: 32px;
+}
+
+.experience {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.reviewBlock {
+    margin-bottom: 24px;
+}
+
+.reviewerInfoWrapper {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+.reviewerImage {
+    width: 44px;
+    height: 44px;
+    border-radius: 100px;
+}
+.reviewerDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.reviewerName {
+    font-size: 16px;
+    font-weight: 500;
+    color: #8A8A89;
+}
+.reviewerRating {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    color: #121417;
+}
+.reviewerComment {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #121417;
+}
+.bookButton {
+    padding: 16px 48px;
+    background-color: #FBE9BA;
+    color: #121417;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 32px;
+    transition: 0.3s;
+    &&:hover {
+        background-color: #F4C550;
+    }
+}
+

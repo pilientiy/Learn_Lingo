@@ -1,0 +1,19 @@
+.wrapper {
+    box-sizing: border-box;
+    width: 566px;
+    max-width: 100%;
+    padding: 64px;
+}
+
+.heading {
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 22px;
+    color: #121417CC;
+    margin-bottom: 20px;
+}

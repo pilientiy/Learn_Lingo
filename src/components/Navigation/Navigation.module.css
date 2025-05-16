@@ -1,0 +1,12 @@
+.link {
+    font-size: 16px;
+    line-height: 20px;
+    color: #121417;
+}
+.link:not(:last-child) {
+    margin-right: 28px;
+}
+
+.active {
+  font-weight: 700;  
+}

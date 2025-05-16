@@ -1,0 +1,18 @@
+.wrapper {
+    padding-top: 50px;
+}
+.message {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.link{
+    font-size: 22px;
+    font-weight: 700;
+    color: black;
+    text-decoration: underline;
+}
+.link:hover {
+    text-decoration: none;
+    color: red;
+}
