@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 250ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.ReactModal__Body--open {
+  overflow: hidden;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  display: block;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+select:hover {
+  border: 1px solid #8a8a89;
+}
+
+@layer utilities {
+  .transition-smooth {
+    @apply transition duration-200 ease-in-out;
+  }
+
+  .pseudoelement-bottom-line {
+    @apply before:bg-transparent before:absolute before:bottom-[-5px] before:left-0 before:w-full before:h-0.5 before:transition-smooth before:hover:bg-light-red;
+  }
+
+  .pseudoelement-right-line {
+    @apply before:absolute before:right-[-15px] before:w-[1px] before:top-1 before:h-4 before:bg-pale-black;
+  }
+
+  .nav-link {
+    @apply relative leading-tight pseudoelement-bottom-line;
+  }
+
+  .active-link {
+    @apply before:bg-light-red before:absolute before:bottom-[-5px] before:left-0 before:w-full before:h-0.5;
+  }
+
+  .red-button-hover {
+    @apply hover:bg-light-red focus:bg-light-red transition-smooth;
+  }
+
+  .eye-hover {
+    @apply hover:stroke-black focus:stroke-black transition-smooth;
+  }
+
+  .input-hover {
+    @apply hover:border-text-color-muted focus:border-text-color-muted transition-smooth;
+  }
+
+  .input {
+    @apply w-full py-4 px-[18px] border-2 rounded-xl border-pale-black input-hover input-hover;
+  }
+
+  .mobile-button-hover {
+    @apply hover:fill-gray focus:fill-gray transition-smooth
+  }
+}
